@@ -25,16 +25,6 @@ Specifically, it includes:
 - Supporting logic for switching, scoring, and interaction state handling
 
 Scene files, assets, experimental data, and survey materials used during the study are not included in this repository.
-
----
-
-## Study Context
-
-The code in this repository was used as part of a controlled classroom study evaluating VR object selection techniques.  
-Performance metrics such as selection time and error counts were logged during experimental sessions, and subjective feedback was collected separately using standard HCI questionnaires.
-
-The study design and evaluation followed common practices in VR and HCI research.
-
 ---
 
 ## Requirements
