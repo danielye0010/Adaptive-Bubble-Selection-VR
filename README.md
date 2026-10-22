@@ -4,6 +4,22 @@ This repository contains the core C# interaction logic for an adaptive bubble-ba
 
 The project compares conventional selection behaviors such as raycasting and fixed-radius bubbles with an adaptive approach that changes selection behavior using **hand motion, target proximity, and local target density**.
 
+## Project website & study presentation
+
+[**Explore Adaptive Bubble VR →**](https://danielye.net/projects/adaptive-bubble-vr/)
+
+[![Actual Unity WDIB prototype with green target recommendation](https://danielye.net/projects/adaptive-bubble-vr/assets/intent-bubble.png)](https://danielye.net/projects/adaptive-bubble-vr/)
+
+The project website includes original Unity screenshots, an illustrative browser adaptation of the scoring algorithm, the method, and reported results from the five-person within-subjects study.
+
+- [Project website](https://danielye.net/projects/adaptive-bubble-vr/)
+- [Original presentation (PDF)](https://danielye.net/projects/adaptive-bubble-vr/assets/presentation.pdf)
+- [Reported measurements (CSV)](https://danielye.net/projects/adaptive-bubble-vr/assets/study-results.csv)
+
+Fixed Bubble had the lowest reported mean completion time (15.5 s); WDIB had the lowest mean attempts per target (6.4) and was preferred by four of five participants. The presentation reports no significant overall time effect; the attempts omnibus test was significant, but corrected pairwise tests were not. These are historical exploratory results, not a new study or a claim of significant WDIB superiority.
+
+Developed by **Yongyun Song and Daniel Ye** at Iowa State University. Daniel implemented WDIB intent scoring and green prediction feedback, and designed/deployed the NASA-TLX questionnaire; Yongyun built the environment, fixed-bubble/hand interaction, timing, and logging.
+
 ## Core idea
 
 Dense VR scenes can make object selection unstable because nearby targets compete for attention and small hand motions can change the apparent selection intent. The adaptive selector scores candidate targets using a combination of:
